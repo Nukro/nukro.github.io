@@ -1,0 +1,125 @@
+/* ------- General ----------- */
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 0 auto;
+    max-width: 1180px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+/* ------- Content ----------- */
+.content .card .card-header {
+    background-color: rgba(219,0,0,0.9) !important;
+    color: white;
+}
+
+.content .card {
+    border: 1px solid rgba(219,0,0,0.9) !important;
+    margin-bottom: 25px;
+}
+
+/*-------- Footer ------------ */
+
+footer {
+    background-color: #ff000014;
+    color: black;
+    padding: 10px 20px 15px 20px;
+    /*padding-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;*/
+    border-top: 2px solid rgba(219,0,0,0.9) !important;
+}
+
+
+/* ------- Navigation -------- */
+.nav-container .nav {
+    background-color: rgba(219,0,0,0.9) !important;
+}
+
+.nav-container .nav.justify-content-center {
+    flex-direction: column;
+}
+
+.nav-container .nav .nav-item.only-mobile {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    max-height: 40px;
+    border-top: none;
+}
+
+.nav-container .nav .nav-item.only-mobile svg {
+    height: 100%;
+    color: white;
+}
+
+.nav-container .nav .nav-item {
+    display: none;
+    border-top: 1px solid white;
+}
+
+.nav-container .nav .nav-item a.nav-link {
+    color: white;
+}
+
+.nav-container .nav .nav-item a.nav-link.active {
+    text-decoration: underline;
+}
+
+.nav-container .nav .nav-item a.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-container .logo-container {
+    max-width: 125px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.nav-container .logo-container img {
+    width: 100%;
+}
+
+.nav-container .logo-container a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/* ------ Media Queries -------- */
+@media screen and (min-width: 680px) {
+    .nav-container .nav .nav-item {
+        display: flex;
+        border-top: none;
+    }
+
+    .nav-container .nav.justify-content-center {
+        flex-direction: row;
+    }
+
+    .nav-container .nav .nav-item.only-mobile {
+        display: none;
+    }
+}

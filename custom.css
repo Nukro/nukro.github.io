@@ -34,7 +34,7 @@ body {
     margin-bottom: 25px;
 }
 
-.content .card .list-group .list-group-flush {
+.content .cards-container .card .list-group .list-group-flush .list-group-item {
     border-color: red;
     background-color: pink;
 }
@@ -52,6 +52,8 @@ body {
 @media screen and (min-width: 680px) {
     .content .cards-container .card {
         max-width: 33.33%;
+        max-width: calc(33.33% - 10px);
+        margin: 5px;
     }
 }
 

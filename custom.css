@@ -35,7 +35,7 @@ body {
 }
 
 .content .cards-container .card .list-group.list-group-flush .list-group-item {
-    border-color: red!important;
+    border-color: 1px solid rgba(219,0,0,0.9)!important;
     background-color: pink!important;
 }
 

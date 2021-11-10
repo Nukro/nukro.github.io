@@ -39,6 +39,22 @@ body {
     background-color: pink;
 }
 
+.content .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .cards-container .card {
+    max-width: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 680px) {
+    .content .cards-container .card {
+        max-width: 33.33%;
+    }
+}
+
 /*-------- Footer ------------ */
 
 footer {

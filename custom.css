@@ -35,8 +35,8 @@ body {
 }
 
 .content .cards-container .card .list-group.list-group-flush .list-group-item {
-    border-color: red;
-    background-color: pink;
+    border-color: red!important;
+    background-color: pink!important;
 }
 
 .content .cards-container {

@@ -50,6 +50,11 @@ body {
     width: 100%;
 }
 
+.content .opening-hours {
+    max-width: 500px;
+    width: 100%;
+}
+
 @media screen and (min-width: 680px) {
     .content .cards-container .card {
         max-width: calc(33.33% - 10px);
